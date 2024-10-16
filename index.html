@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduce</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>自己PR</h1>
-        <ul>
-            <li>自己紹介</li>
-            <li>部活動</li>
-            <li>取得資格</li>
-            <li>勉強中</li>
+    <header class="wrapper">
+        <h1 id="head_title">自己PR</h1>
+        <ul id="head_list">
+            <a href="#myself"><li>自己紹介</li></a>
+            <a href="#club"><li>部活動</li></a>
+            <a href="#sikaku"><li>取得資格</li></a>
+            <a href="#study"><li>勉強中</li></a>
         </ul>
     </header>
     <main>
         <section id="myself" class="wrapper">
-            <h2>自己紹介</h2>
-            <dl>
+            <h2 class="sec_title">自己紹介</h2>
+            <dl class="content">
                 <dt>名前</dt>
                 <dd>薗駿輝</dd>
                 <dt>誕生日</dt>
@@ -32,7 +33,7 @@
             </dl>
         </section>
         <section id="club" class="wrapper">
-            <h2>部活動</h2>
+            <h2 class="sec_title">部活動</h2>
             <dl>
                 <dt>中学校</dt>
                 <dd>囲碁将棋部、サッカー部</dd>
@@ -40,29 +41,32 @@
                 <dd>軽音楽部トロンボーン</dd>
             </dl>
         </section>
-        <section>
-            <h2>取得資格</h2>
+        <section id="sikaku" class="wrapper">
+            <h2 class="sec_title">取得資格</h2>
+            <ul class="list">
             <li>ITパスポート</li>
             <li>システムエンジニア認定</li>
             <li>プログラマ認定</li>
             <li>基本情報技術者(仮合格)</li>
+            </ul>
         </section>
         <section id="study" class="wrapper">
-            <h2>今勉強していること</h2>
-            <ul>
+            <h2 class="sec_title">今勉強していること</h2>
+            <ul class="list">
                 <li>Javascript</li>
                 <li>python</li>
                 <li>応用情報技術者試験</li>
             </ul>
         </section>
-        <section>
-            <h3>これから勉強していきたいこと</h3>
-            <ul>
+        <section class="wrapper">
+            <h2 class="sec_title">これから勉強していきたいこと</h2>
+            <ul class="list">
                 <li>アプリ開発</li>
                 <li>機械学習</li>
                 <li>新しい言語</li>
             </ul>
         </section>
     </main>
+    <footer></footer>
 </body>
 </html>
