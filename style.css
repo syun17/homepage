@@ -11,6 +11,11 @@ a {
     display: block;
 }
 
+#head_title {
+    padding: 0;
+    margin: 0;
+}
+
 li {
     list-style: none;
 }
